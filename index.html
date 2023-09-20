@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Quick Tip Calculator</title>
+    <link rel="icon" href="img/favicom.png" />
+  </head>
+  <body>
+    <main oninput="tipUpdate()">
+      <h1>CALCULADORA DE GORJETA</h1>
+
+      <section>
+        <div class="bill">
+          <label for="yourBill">Conta</label>
+          <input type="number" placeholder="sua conta" id="yourBill" />
+        </div>
+
+        <div>
+          <div class="space-between">
+            <span class="tipTextSelection" id="tipPercent">0%</span>
+          </div>
+          <input
+            type="range"
+            min="0"
+            max="100"
+            value="0"
+            value="0"
+            id="tipInput"
+            class="range"
+          />
+        </div>
+
+        <div class="space-between">
+          <span>Gorjeta</span>
+          <span id="tipValue"></span>
+        </div>
+        <hr />
+
+        <div class="space-between total">
+          <span>TOTAL</span>
+          <span id="totalWithTip">0</span>
+        </div>
+      </section>
+
+      <section>
+        <div>
+          <div class="space-between">
+            <label for="splitInput">Divisão</label>
+            <span id="splitValue">1</span>
+          </div>
+          <input
+            type="range"
+            min="1"
+            max="10"
+            value="1"
+            id="splitInput"
+            class="range"
+          />
+        </div>
+
+        <div class="space-between">
+          <span>Para cada</span>
+          <span id="billEachDisplay">0</span>
+        </div>
+      </section>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
