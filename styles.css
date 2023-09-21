@@ -1,11 +1,12 @@
     html, body {
-      background-color:#0000272c;
+      background-color:#07101bd0;
+      color: #f4f4f5;
       width: 100%;
       height: 100%;
       display: flex;
       justify-content: center;
       align-items: center;
-      font-family: 'Ubuntu', sans-serif;
+      font-family: 'Croissant One', cursive;
       font-size: 20px;
       margin: 0;
       padding: 0;
@@ -20,28 +21,28 @@
     height: auto;
     margin: 10px;
     padding: 20px;
-    background: linear-gradient(360deg, #3c3d497a, #0b0d5a5d,#000027 );
-    border-radius: 20px;
+    background-image: linear-gradient(150deg, #05052ed0, #2b13b37a, #9c96f879);
+    border-radius: 50px;
     box-shadow: 0 2px 3px rgba(0, 0, 0, 0.7);
   }
   
   h1 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Croissant One', cursive;
     text-align: center;
     font-size: 25px;
-    color: #f4f4f5;
+    color: #c3f3f3;
     margin: 0;
     padding-bottom: 20px;
   }
   
   section {
-    background-color: rgba(255, 255, 255, 0.171);
+    background-color: #ffffff2f;
     font-size: 20px;
     margin: auto;
     margin-bottom: 10px;
     padding: 8px;
     border-radius: 20px;
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.219);
+    box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.219);
   }
   
   section > div {
@@ -69,7 +70,7 @@
     justify-content: center;
     border: 1px solid lightgray;
     border-radius: 20px;
-    box-shadow: inset 0 2px 2px lightgray;
+    box-shadow: inset 0px 2px 2px lightgray;
   }
   
   .space-between {
@@ -80,7 +81,7 @@
   
   .total {
     font-size: 22px;
-    color: #1d1f2c;
+    color: #02022c;
     font-family: inherit;
     font-weight: bolder;
   }
@@ -93,27 +94,26 @@
     border-radius: 3px solid;
     width: 100%;
     height: 10px;
-    background: #ffffffbb;
+    background: #dedeeebb;
     border-radius: 4px;
-    outline-color: #0b0930;
   }
   
   input[type="range"]::-webkit-slider-thumb {
     -webkit-appearance: none;
     height: 7px;
     width: 12px;
-    background-color: #100333;
+    background-color: #200b5a;
     border-radius: 3px;
     cursor: pointer;
   }
   
   input[type="range"]::-moz-range-thumb {
-    width: 9px;
-    height: 8px;
+    width: 7px;
+    height: 12px;
     border-radius: 50%;
-    background: #97f7b4;
+    background: #02022c;
     cursor: pointer;
-    border: 1px solid #f50;
+    border: 1px solid rgb(250, 250, 250);
   }
   
   .range::-moz-focus-outer {
@@ -121,12 +121,15 @@
   }
 
   .tipTextSelection {
-    padding-left: 300px;
     font-family: inherit;
     font-size: 14px;
     display: flex;
-    justify-content: space-between;
-    margin: 3px;
+  }
+
+  .tipTextSelection2 {
+    font-family: inherit;
+    font-size: 10px;
+    display: flex;
   }
 
   .gorjeta {

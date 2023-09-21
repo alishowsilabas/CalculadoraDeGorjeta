@@ -8,8 +8,8 @@ function tipUpdate(){
     let billEach = billTotal / split;
 
     document.getElementById('tipPercent').innerHTML = tipPercent + '%';
-    document.getElementById('tipValue').innerHTML = 'R$' + tipValue;
-    document.getElementById('totalWithTip').innerHTML = 'R$ ' + billTotal;
-    document.getElementById('splitInput').innerHTML = split;
-    document.getElementById('billEachDisplay').innerHTML = 'R$ ' + billEach;
+    document.getElementById('tipValue').innerHTML = 'R$' + tipValue.toFixed(2);
+    document.getElementById('totalWithTip').innerHTML = 'R$ ' + billTotal.toFixed(2);
+    document.getElementById('splitValue').innerHTML = split;
+    document.getElementById('billEachDisplay').innerHTML = 'R$ ' + billEach.toFixed(2);
 }
