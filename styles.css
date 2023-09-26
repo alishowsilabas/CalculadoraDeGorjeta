@@ -1,6 +1,6 @@
     html, body {
-      background-color:#07101bd0;
-      color: #f4f4f5;
+      background-color:#f7deb8d0;
+      color: #f7f7f7;
       width: 100%;
       height: 100%;
       display: flex;
@@ -21,28 +21,28 @@
     height: auto;
     margin: 10px;
     padding: 20px;
-    background-image: linear-gradient(150deg, #05052ed0, #2b13b37a, #9c96f879);
+    background-image: linear-gradient(150deg, #fadc8a8a, #f8c5678f, #fa900665);
     border-radius: 50px;
-    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.7);
+    box-shadow: 0 2px 3px rgba(165, 88, 0, 0.699);
   }
   
   h1 {
     font-family: 'Croissant One', cursive;
     text-align: center;
     font-size: 25px;
-    color: #c3f3f3;
+    color: #270b04;
     margin: 0;
     padding-bottom: 20px;
   }
   
   section {
-    background-color: #ffffff2f;
+    background-color: #fc90033f;
     font-size: 20px;
     margin: auto;
     margin-bottom: 10px;
     padding: 8px;
     border-radius: 20px;
-    box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.219);
+    box-shadow: inset 1px 1px 1px rgb(248, 150, 3);
   }
   
   section > div {
@@ -69,7 +69,7 @@
     align-content: center;
     justify-content: center;
     border: 1px solid lightgray;
-    border-radius: 20px;
+    border-radius: 10px;
     box-shadow: inset 0px 2px 2px lightgray;
   }
   
@@ -81,7 +81,7 @@
   
   .total {
     font-size: 22px;
-    color: #02022c;
+    color: #270b04;
     font-family: inherit;
     font-weight: bolder;
   }
@@ -102,7 +102,7 @@
     -webkit-appearance: none;
     height: 7px;
     width: 12px;
-    background-color: #200b5a;
+    background-color: #db6a00;
     border-radius: 3px;
     cursor: pointer;
   }
@@ -111,7 +111,7 @@
     width: 7px;
     height: 12px;
     border-radius: 50%;
-    background: #02022c;
+    background: #eb4e06;
     cursor: pointer;
     border: 1px solid rgb(250, 250, 250);
   }
